@@ -10,4 +10,4 @@ class Book:
 
 
     def apply_discount(self, percentage):
-        self.price = self.price * 0.75
+        self.price = self.price * percentage
